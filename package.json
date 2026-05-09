@@ -1,0 +1,29 @@
+{
+  "name": "chirpyserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruttins/chirpyserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruttins/chirpyserver/issues"
+  },
+  "homepage": "https://github.com/bruttins/chirpyserver#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^25.6.2",
+    "D": "^1.0.0",
+    "typescript": "^6.0.3"
+  }
+}
