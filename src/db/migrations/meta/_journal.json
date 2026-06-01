@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1778842451315,
+      "tag": "0000_wet_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1779093378625,
+      "tag": "0001_square_madelyne_pryor",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1779194654775,
+      "tag": "0002_natural_raza",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1779273100482,
+      "tag": "0003_magenta_rocket_raccoon",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1779360840907,
+      "tag": "0004_greedy_betty_ross",
+      "breakpoints": true
+    }
+  ]
+}

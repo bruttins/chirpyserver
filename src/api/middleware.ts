@@ -13,7 +13,7 @@ export function middlewareLogResponses(req: Request, res: Response, next: NextFu
 }
 
 export function middlewareMetricsInc(req: Request, res: Response, next: NextFunction) {
-    config.fileServerHits++;
+    config.api.fileServerHits++;
     next();
 }
 
@@ -27,5 +27,6 @@ export function middlewareErrorHandler(err: Error, _req: Request, res: Response,
     } else if (err instanceof NotFoundError) {
         return res.status(404).json({ "error": err.message });
     }
+    console.log(err);
     return res.status(500).json({ "error": "Something went wrong on our end" });
 }
